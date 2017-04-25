@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body ng-app="myApp">
+<div ng-controller="modController">
+Enter Number<input type="number" ng-model="x"/><br/> <br/>
+Enter Another Number<input type="number" ng-model="y"/>
+<input type="button" name="btnSum" value="Sum" ng-click="fn_sum()">
+<input type="button" name="btnProduct" value="Product" ng-click="fn_product()">
+<input type="button" name="btnDivision" value="Divide" ng-click="fn_division()"> <br/><br/>
+
+<h1>{{Output}}</h1>
+</div>
+
+<script src="Scripts/angular.js"></script>
+<script src="Scripts/app.js"></script>
+</body>
+</html>
